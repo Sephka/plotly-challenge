@@ -74,8 +74,9 @@ window.onload = function(e) {
             };
             Plotly.newPlot("bubble", [bubble], layout);
           });
-        }
+        };
       });
+
       // Scan for sample results for bar chart
       sampleResults.forEach(function(sample) {
         if (id == sample.id) {
@@ -96,8 +97,9 @@ window.onload = function(e) {
             };
             Plotly.newPlot("bar", [bar], layout);
           });
-        }
+        };
       });
+
       // Scan sample results for pie chart
       sampleResults.forEach(function(sample) { 
         if (id == sample.id) {
