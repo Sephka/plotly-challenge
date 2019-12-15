@@ -18,7 +18,7 @@ window.onload = function(e) {
     defaultOption.text = "Select Option";
     dropdown.add(defaultOption);
 
-    // Add all IDS to droup down
+    // Add all IDS to drop down
     peopleIDS.forEach(function(id) {
       var option = document.createElement('option');
       option.text = id;
